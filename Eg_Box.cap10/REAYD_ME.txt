@@ -1,0 +1,18 @@
+__________________________________________________________Eg_Box.
+utilisation/
+-lancer le scripte depuis votre terminale en vous placent daborde dans le repertoire ou et contenu votre script
+-executer le avec la comande ( sudo ./Eg_Box.sh )
+-suver les indication 
+-ne prener pas en compte les message d'erreur ( mv: cannot stat '*.extention': No such file or directory )
+-et voila vos fichier son ranger 
+
+modification/
+-pour adapter vos rangement modifer la parti (##_MES_VARIABLE)
+-NE MODIFIER PAS LES VARIABLE ( IMG_M=" )
+-MODIFER SEULMENT LE CHEMIN
+-si vous vouler cree de nouvel variable 
+-une foix votre variable emplace ( RTO_G="/home/kevine/Documents/RETRO_GAME" )
+-decender dans la parti ( ##_TYPE_D'EXTENTION_ )
+-et ajouter ou deplacer une extention ( mv *.iso *.zip $RTO_G )  
+
+
